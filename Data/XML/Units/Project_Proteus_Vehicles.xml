@@ -5385,7 +5385,7 @@
     		TEXT_TOOLTIP_ATTE_WEAP1
     		TEXT_TOOLTIP_ATTE_WEAP2
             TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-            TEXT_TOOLTIP_ATTE_COMMAND_WEAP
+            TEXT_TOOLTIP_ATTE_WEAP_COMMAND
     		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
             TEXT_TOOLTIP_ATTE_INFANTRY_HEAL
     		TEXT_TOOLTIP_BONUS_AA_ACCURACY
@@ -5396,8 +5396,39 @@
         <Icon_Name>I_BUTTON_ATTE_COMMAND.TGA</Icon_Name>
 
         <HardPoints>
-            
+            HP_ATTE_Main_Command,
+            HP_ATTE_Main_Command_Alt,
+			HP_ATTE_TurretFrontLeft,
+			HP_ATTE_TurretFrontRight,
+			HP_ATTE_TurretFrontBottomLeft,
+			HP_ATTE_TurretFrontBottomRight,
+			HP_ATTE_TurretBackLeft,
+			HP_ATTE_TurretBackRight,
         </HardPoints>
+
+        <Num_Garrison_Slots>0</Num_Garrison_Slots>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY<</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
+				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
+				<Recharge_Seconds> 9.0 </Recharge_Seconds>
+			</Unit_Ability>
+
+            <Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundVehicle>
 		
 	<GroundVehicle Name="GAT">
