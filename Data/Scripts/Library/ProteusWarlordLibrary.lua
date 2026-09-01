@@ -1189,8 +1189,7 @@ return {
 			StartYear = 4,
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
-			IntroHolo = "Daala_Loop",
-
+			IntroHolo = "Alix_Balan_Loop",
 		},
 		["CENTRALITY"] = {
 			FriendlyName = "Imperial Centrality",
@@ -1216,7 +1215,6 @@ return {
 			StartYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_CENTRALITY",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
-
 		},
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
