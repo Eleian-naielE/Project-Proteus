@@ -1134,12 +1134,13 @@ return {
 				"Bulwark_III", "Mandator_II_Dreadnought",
 				-- Ground
 				"PDF_Tactical_Unit_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
-				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
-				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
+				"AT_ST_Company", "AAC_1_Company", "SD_6_Droid_Company_Generic", "SD_9_Droid_Company_Generic", "SD_10_Droid_Company_Generic",
+				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company", "X1_Viper_Droid_Company_Generic", 
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
 				-- Research
 				"Proteus_A9_Research",
 			},
+			LockList = {"SD_6_Droid_Company", "SD_9_Battle_Droid_Company", "SD_10_Battle_Droid_Company", "X1_Viper_Droid_Company"},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Independent_Forces",
 			StartYear = 4,
@@ -1305,7 +1306,7 @@ return {
 			UnlockList = {
 				-- Space 
 				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
-				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
+				"Modernized_DHC", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Sorannan_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
