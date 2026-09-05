@@ -451,7 +451,7 @@ return {
 				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research/Dummies
-				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Kale__Dummy", "Procurator_Upgrade_Dummy", "Kuat_Choose_BC",
+				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Kale_Modernized_Dummy", "Procurator_Upgrade_Dummy", "Kuat_Choose_BC",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
@@ -1457,7 +1457,7 @@ return {
 			UnlockList = {
 				-- Space
 				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
-				"Pursuit_Light_Cruiser", "_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
+				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
@@ -1526,7 +1526,7 @@ return {
 		-- 	UnlockList = {
 		 		-- Space
 		--		"Customs_Corvette", "Consular_Refit", "Carrack_Cruiser_Zeta", "Class_C_Frigate", "Corona_Tender", "Quasar", "Strike_Cruiser",
-		--		"DHC_Interdictor", "_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
+		--		"DHC_Interdictor", "Modernized_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
 		--		"Triumph_Star_Destroyer", "Shadow_Imperial_I_Star_Destroyer_Carrier", "Nebula_Star_Destroyer", "Vontor_Destroyer",
 		--		"_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
 		 		-- Ground
