@@ -1528,7 +1528,7 @@ return {
 		--		"Customs_Corvette", "Consular_Refit", "Carrack_Cruiser_Zeta", "Class_C_Frigate", "Corona_Tender", "Quasar", "Strike_Cruiser",
 		--		"DHC_Interdictor", "Modernized_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
 		--		"Triumph_Star_Destroyer", "Shadow_Imperial_I_Star_Destroyer_Carrier", "Nebula_Star_Destroyer", "Vontor_Destroyer",
-		--		"_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
+		--		"Modernized_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
 		 		-- Ground
 		--		"Security_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Nova_Stormtrooper_Company", "Reborn_Dark_Jedi_Company",
 		--		"PX7_Company", "AT_KT_Company", "Chariot_LAV_Company","INT4_Company",
