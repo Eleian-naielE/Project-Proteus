@@ -451,7 +451,7 @@ return {
 				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research/Dummies
-				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Kale_Modernized_Dummy", "Procurator_Upgrade_Dummy", "Kuat_Choose_BC",
+				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Kale__Dummy", "Procurator_Upgrade_Dummy", "Kuat_Choose_BC",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
@@ -1134,12 +1134,13 @@ return {
 				"Bulwark_III", "Mandator_II_Dreadnought",
 				-- Ground
 				"PDF_Tactical_Unit_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
-				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
-				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
+				"AT_ST_Company", "AAC_1_Company", "SD_6_Droid_Company_Generic", "SD_9_Droid_Company_Generic", "SD_10_Droid_Company_Generic",
+				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company", "X1_Viper_Droid_Company_Generic", 
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
 				-- Research
 				"Proteus_A9_Research",
 			},
+			LockList = {"SD_6_Droid_Company", "SD_9_Battle_Droid_Company", "SD_10_Battle_Droid_Company", "X1_Viper_Droid_Company"},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Independent_Forces",
 			StartYear = 4,
@@ -1305,7 +1306,7 @@ return {
 			UnlockList = {
 				-- Space 
 				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
-				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
+				"Modernized_DHC", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Sorannan_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
@@ -1456,7 +1457,7 @@ return {
 			UnlockList = {
 				-- Space
 				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
-				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
+				"Pursuit_Light_Cruiser", "_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
@@ -1525,9 +1526,9 @@ return {
 		-- 	UnlockList = {
 		 		-- Space
 		--		"Customs_Corvette", "Consular_Refit", "Carrack_Cruiser_Zeta", "Class_C_Frigate", "Corona_Tender", "Quasar", "Strike_Cruiser",
-		--		"DHC_Interdictor", "Modernized_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
+		--		"DHC_Interdictor", "_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
 		--		"Triumph_Star_Destroyer", "Shadow_Imperial_I_Star_Destroyer_Carrier", "Nebula_Star_Destroyer", "Vontor_Destroyer",
-		--		"Modernized_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
+		--		"_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
 		 		-- Ground
 		--		"Security_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Nova_Stormtrooper_Company", "Reborn_Dark_Jedi_Company",
 		--		"PX7_Company", "AT_KT_Company", "Chariot_LAV_Company","INT4_Company",
