@@ -1760,8 +1760,7 @@ TEXT_ENCYCLOPEDIA_CLASS_BUREAUCRAT_IMP,Imperial Bureaucrat
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Ambassador
 
 TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
-TEXT_TOOLTIP_ATTE_COMMAND,
-TEXT_TOOLTIP_ATTE_COMMAND_WEAP,
+
 TEXT_TOOLTIP_GLADIATOR2_CARRIER,A refit of the Gladiator-II Star Destroyer that removes its warhead launchers in favor of expanded internal hangar bays. An upgraded laser cannon battery and replacing some turbolasers with ion cannons allows it to fulfill a more supportive role in fleet combat than the standard Gladiator-II.
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_HULL,Hull: 1960 (Frigate)
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_MOVE,Speed: 4.9 | Accel: 0.15 | Turn: 0.45
@@ -1771,5 +1770,8 @@ TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP1,2x Medium Dual Turbolasers: 2 / 3.33s / 6.
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP2,2x Medium Dual Ion Cannons: 2 / 3.33s / 6.1km
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP3,2x Medium Dual Laser Cannons: 2 / 1.0s / 4.1km
 TEXT_UNIT_GLADIATOR2_CARRIER,Gladiator-II Carrier
+
+TEXT_TOOLTIP_ATTE_COMMAND,
+TEXT_TOOLTIP_ATTE_COMMAND_WEAP,
 TEXT_TOOLTIP_ABILITY_ARTILLERY,
 TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION,
