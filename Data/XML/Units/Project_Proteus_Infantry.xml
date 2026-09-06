@@ -3542,7 +3542,7 @@
 		<Variant_Of_Existing_Type>SD_6_Hulk_Infantry_Droid_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Required_Special_Structures> I_Ground_Barracks </Required_Special_Structures>
+		<Required_Special_Structures> I_Ground_Barracks | Balmorran_Arms_HQ</Required_Special_Structures>
 		<GUI_Row> 1 </GUI_Row>
 
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>

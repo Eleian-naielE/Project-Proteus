@@ -1140,7 +1140,7 @@ return {
 				-- Research
 				"Proteus_A9_Research",
 			},
-			LockList = {"SD_6_Droid_Company", "SD_9_Battle_Droid_Company", "SD_10_Battle_Droid_Company", "X1_Viper_Droid_Company"},
+			LockList = {"SD_6_Droid_Company", "SD_9_Droid_Company", "SD_10_Droid_Company", "X1_Viper_Company"},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Independent_Forces",
 			StartYear = 4,
