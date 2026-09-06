@@ -344,6 +344,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -1227,6 +1228,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
@@ -2459,6 +2461,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3217,6 +3220,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3993,6 +3997,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -4767,6 +4772,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -5541,6 +5547,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -6511,6 +6518,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7171,6 +7179,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7694,6 +7703,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Blue </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -9829,6 +9839,7 @@
 			Victory_I_Star_Destroyer_Patrol,
 			Imperial_II_Star_Destroyer_Sentry,
 			Venator_Star_Destroyer_Patrol,
+			Gladiator_II_Carrier,
 			Destruction1214,
 			Rook_Frostfire,
 			TaxEvader_SynTax_Error,
