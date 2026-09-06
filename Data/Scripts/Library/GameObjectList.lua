@@ -322,7 +322,6 @@ return {
 ["GARVEDON_CAPTOR"] = true,
 ["GENDARR_RELIANCE"] = true,
 ["GEONOSIAN_CRUISER_INFLUENCE"] = true,
-["GLADIATOR_DEMOLISHER"] = true,
 ["GLADIATOR_I"] = true,
 ["GLADIATOR_II"] = true,
 ["GOLAN_COLONY_ONE"] = true,
@@ -961,6 +960,8 @@ return {
 ["DUMMY_RANDOM_UNIT_RENDILI_VSD"] = true,
 ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = true,
 ["X1_EXECUTOR_DUMMY"] = true,
+["GLADIATOR_DEMOLISHER"] = true,
+["GLADIATOR_II_CARRIER"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,

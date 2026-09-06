@@ -2448,6 +2448,8 @@
 		Triumph_Star_Destroyer, 						Data\ShipNames\Triumph_SD.txt,
 		Triumph_Star_Destroyer_Hero_Refit, 				Data\ShipNames\Triumph_SD.txt,
 		DHC_Interdictor,								Data\ShipNames\CC7700E.txt,
+		LAC,											Data\ShipNames\LAC.txt,
+		Consular,										Data\ShipNames\LAC.txt,
 		Consular_Refit,									Data\ShipNames\LAC.txt,
 		Corona_Tender,									Data\ShipNames\Corona_Tender.txt,
 		IPV1_Gunboat_Proteus,							Data\ShipNames\IPV.txt,
@@ -2492,6 +2494,12 @@
 		Vector_Star_Destroyer,							Data\ShipNames\victory_destroyer_II.txt,
 		Victory_I_Star_Destroyer_Patrol,				Data\ShipNames\Victory_Destroyer.txt,
 		Imperial_II_Star_Destroyer_Sentry,				Data\ShipNames\Star_Destroyer.txt,
+		Gladiator_Demolisher,							Data\ShipNames\Gladiator.txt,
+		Gladiator_II_Carrier,							Data\ShipNames\Gladiator_II.txt,
+		Modernized_DHC,									Data\ShipNames\Dreadnaught_Imperial.txt,
+		Picket_DHC,										Data\ShipNames\Dreadnaught_Imperial.txt,
+		Venator_Star_Destroyer_Patrol,					Data\ShipNames\Venator.txt,
+		Imperial_Republic_Star_Destroyer,				Data\ShipNames\Star_Destroyer.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

@@ -30,6 +30,8 @@ return {
         "Picket_DHC",
         "Modernized_DHC",
 		"DHC_Interdictor",
+		--"Missile_DHC",
+		--"Comms_DHC",
 		"Alliance_Assault_Frigate",
 		--"Katana_DHC",
     },
@@ -42,7 +44,7 @@ return {
     ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = {
 		"Gladiator_I",
         "Gladiator_II",
-        --"Gladiator_Carrier",
+        "Gladiator_II_Carrier",
 		"Gladiator_Demolisher",
 	},
 }
