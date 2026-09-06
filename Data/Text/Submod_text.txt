@@ -1,4 +1,4 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -1771,3 +1771,5 @@ TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP1,2x Medium Dual Turbolasers: 2 / 3.33s / 6.
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP2,2x Medium Dual Ion Cannons: 2 / 3.33s / 6.1km
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP3,2x Medium Dual Laser Cannons: 2 / 1.0s / 4.1km
 TEXT_UNIT_GLADIATOR2_CARRIER,Gladiator-II Carrier
+TEXT_TOOLTIP_ABILITY_ARTILLERY,
+TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION,
