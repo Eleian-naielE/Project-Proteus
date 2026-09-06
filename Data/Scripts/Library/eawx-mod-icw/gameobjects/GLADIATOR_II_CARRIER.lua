@@ -11,6 +11,7 @@ return {
 			DEFAULT = {Initial = 1, Reserve = 1}
 		}
 	},
+	FighterFlags = {"PROTEUS_OVERRIDE"},
 	Native = "IMPERIAL",
 	Scripts = {"multilayer", "fighter-spawn", "single-unit-retreat"}
 }
