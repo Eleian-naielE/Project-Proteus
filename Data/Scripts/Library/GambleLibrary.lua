@@ -30,6 +30,8 @@ return {
         "Picket_DHC",
         "Modernized_DHC",
 		"DHC_Interdictor",
+		--"Missile_DHC",
+		--"Comms_DHC",
 		"Alliance_Assault_Frigate",
 		--"Katana_DHC",
     },
