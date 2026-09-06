@@ -42,7 +42,7 @@ return {
     ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = {
 		"Gladiator_I",
         "Gladiator_II",
-        --"Gladiator_Carrier",
+        "Gladiator_II_Carrier",
 		"Gladiator_Demolisher",
 	},
 }
