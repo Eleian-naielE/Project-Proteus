@@ -141,7 +141,152 @@
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</GroundCompany>
-	
+
+	<GroundVehicle Name="AT_PT_Sniper">
+		<Variant_Of_Existing_Type>AT_PT_Walker</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_AT_PT_SNIPER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ATPT_SNIPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ATPT_HEALTH
+		TEXT_TOOLTIP_ATPT_MOVE
+		TEXT_TOOLTIP_ATPT_SNIPER_WEAP1
+		TEXT_TOOLTIP_ATPT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATPT_SNIPER.TGA</Icon_Name>
+
+		<Armor_Type> ArmourG_LightVehicle </Armor_Type>
+		<Tactical_Health>90</Tactical_Health>
+		<Damage>6</Damage>
+		<AI_Combat_Power>25</AI_Combat_Power>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<HardPoints>
+				HP_ATPT_Sniper_AV, HP_ATPT_Conc
+		</HardPoints>
+
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>7.0</Expiration_Seconds>
+				<GUI_Activated_Ability_Name>Unit_Attack_AT_ST</GUI_Activated_Ability_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FULL_SALVO_CONCUSSION_GRENADE</Alternate_Description_Text>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_AT_PT</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Laser_Defense_Ability Name="AT_PT_Laser_Defense">
+				<!-- Empty so it doesn't inherit -->
+			</Laser_Defense_Ability>
+
+			<Force_Healing_Ability Name="AT_PT_Sniper_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AT_PT_Sniper</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundVehicle>
+
+	<GroundVehicle Name="AT_PT_Sniper_Captured">
+		<Variant_Of_Existing_Type>AT_PT_Sniper</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>7.0</Expiration_Seconds>
+				<GUI_Activated_Ability_Name>Unit_Attack_AT_ST</GUI_Activated_Ability_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FULL_SALVO_CONCUSSION_GRENADE</Alternate_Description_Text>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_AT_PT</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="AT_PT_Sniper_Company">
+		<Variant_Of_Existing_Type>Imperial_AT_PT_Company</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_ATPT_SNIPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ATPT_SNIPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_ATPT_SNIPER_COMPANY 
+		TEXT_TOOLTIP_ATPT_HEALTH 
+		TEXT_TOOLTIP_ATPT_MOVE
+		TEXT_TOOLTIP_ATPT_SNIPER_WEAP1
+		TEXT_TOOLTIP_ATPT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATPT_SNIPER.TGA</Icon_Name>
+
+		<Damage>24</Damage>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Company_Units>AT_PT_Sniper, AT_PT_Sniper, AT_PT_Sniper, AT_PT_Sniper, AT_PT_Sniper, AT_PT_Sniper</Company_Units>
+
+	</GroundCompany>
+
 	<GroundVehicle Name="AT_XT_Walker">
 		<Text_ID>TEXT_UNIT_AT_XT_WALKER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
