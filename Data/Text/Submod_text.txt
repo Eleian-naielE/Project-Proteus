@@ -1913,3 +1913,8 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
+TEXT_ATPT_SNIPER_SQUAD,AT-PT/A Walker Company
+TEXT_TOOLTIP_ATPT_SNIPER_COMPANY,Company: 6x AT-PT/A Walker
+TEXT_TOOLTIP_ATPT_SNIPER,Also known as the AT-PT Sniper, the AT-PT/A is an obscure assault modification of the common AT-PT Walker dating back to the Clone Wars. It features a more powerful main blaster intended to better defeat entrenched and armored soldiers and droids, but which also proved surprisingly effective against light vehicles. While mostly unneeded for garrison duties, the "Sniper" saw increased use after the Battle of Endor in Warlord and Pirate arsenals.
+TEXT_TOOLTIP_ATPT_SNIPER_WEAP1,1x Very Light AV Blaster Cannon: 4 / 1.0s / 320m
