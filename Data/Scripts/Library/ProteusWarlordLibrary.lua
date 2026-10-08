@@ -1383,7 +1383,7 @@ return {
 				"Assertor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Heavy_PDF_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
-				"SP9_Company", "ULAV_Early_Company",
+				"SP9_Group", "ULAV_Early_Company",
 				"008_Speeder_Company", "Imperial_VAAT_Company", "AV_7_Company", "AT_AA_Flak_Walker_Company", 
 				"Teklos_Company",
 				-- Research
