@@ -1012,7 +1012,7 @@ return {
 			Planets = {"DANTOOINE"},
 			LeaderTable = {"RAVEEN_PREDOMINANT"},
 			LeaderEndingNames = {"Emperor Raveen"},
-			HeroList = {"Raveen_Predominant","Lezner_Team"},
+			HeroList = {"Raveen_Predominant","Lezner_Team", "17786_Team"},
 			FighterHero = {{"DEATHFIRE_GAMMA_SQUADRON","RAVEEN_PREDOMINANT"}},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Pentastar",

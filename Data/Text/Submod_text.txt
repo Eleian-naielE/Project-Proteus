@@ -162,6 +162,7 @@ TEXT_HEADHUNTER_MODERNIZED_SQUADRON,Modernized Z-95 Headhunter Squadron
 TEXT_HEADHUNTER_MODERNIZED_SQUADRON_HALF,Modernized Z-95 Headhunter Squadron 1/2
 TEXT_HEADHUNTER_MODERNIZED_SQUADRON2,Modernized Z-95 Headhunter Squadron x2
 TEXT_HERO_1214,Destruction1214
+TEXT_HERO_17786,17786
 TEXT_HERO_ABAN,Aban
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
@@ -594,6 +595,10 @@ TEXT_TOOLTIP_1214_WEAP4,4x Medium Quad Ion Cannons: 2 / 4.0s / 12.8km
 TEXT_TOOLTIP_1214_WEAP5,4x Proton Torpedoes: 5 / 10.0s / 10.8km
 TEXT_TOOLTIP_1214_WEAP6,2x Assault Concussion Missiles: 7 / 17.5s / 14.8km
 TEXT_TOOLTIP_1214_WEAP7,2x Assault Concoussion Missiles: 2 / 2.5s / 14.8km
+TEXT_TOOLTIP_17786,17786 was a Force sensitive stormtrooper, the son of Grand Admiral Nial Declann. Arden Lyn took him as an apprentice, training him in Teräs Käsi and the Force. He alongside Thok and Lyn aided Grand Admiral Zaarin's coup by capturing Emperor Palpatine.
+TEXT_TOOLTIP_17786_HEALTH,Health: 180 [2%/5s] (Hero)
+TEXT_TOOLTIP_17786_MOVE,Speed: 1.3
+TEXT_TOOLTIP_17786_WEAP1,1x Wrist Rocket: 1 / 10.0s / 240m
 TEXT_TOOLTIP_1HB_TANK,A variant of the more common Imperial-class 1-H Heavy Repuslortank that offered the same protection and speed with an alternative weapons loadout. This model excelled against other vehicles but was vulnerable to infantry attacks.
 TEXT_TOOLTIP_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_TOOLTIP_1HB_TANK_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
@@ -1041,7 +1046,7 @@ TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1,Ar
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC1,Stormtrooper Fireteam: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
-TEXT_TOOLTIP_FROSTFIRE_SHIELD,Shields: 5,000 / [50/R] (Capital)
+TEXT_TOOLTIP_FROSTFIRE_SHIELD,Shields: 5,000 / [75/R] (Capital)
 TEXT_TOOLTIP_FROSTFIRE_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 4
 TEXT_TOOLTIP_FROSTFIRE_WEAP1,4x Medium Quad Turbolasers: 1 / 4.0s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP2,4x Medium Turbolasers: 2 / 0.75s / 6.3km
