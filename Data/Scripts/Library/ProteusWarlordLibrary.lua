@@ -534,6 +534,8 @@ return {
 				"Espo_Walker_91_Company", "Imperial_ULAV_Company", "INT4_Company", "Imperial_Gaba18_Company",
 				"Deathhawk_Company", "Swift_Assault_5_Company", "Imperial_TX130S_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_LAAT_Company",
 				"A9_Floating_Fortress_Company", "Heavy_Recovery_Vehicle_Company",
+				-- Research
+				"Maelstrom_Loadout_Swap1",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Pentastar",

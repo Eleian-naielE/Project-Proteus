@@ -24,6 +24,7 @@ TEXT_ARMORED_SHIELDED_INTERCEPTOR_MISSILE_SQUADRON2,Missile Heavy TIE Intercepto
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON,Upgunned Heavy TIE Interceptor Squadron
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Upgunned Heavy TIE Interceptor Squadron 1/2
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON2,Upgunned Heavy TIE Interceptor Squadron x2
+TEXT_ATPT_SNIPER_SQUAD,AT-PT/A Walker Company
 TEXT_ATXT_SQUAD,AT-XT Walker Company
 TEXT_BELBULLAB22_SQUADRON,Belbullab-22 Squadron
 TEXT_BELBULLAB22_SQUADRON_HALF,Belbullab-22 Squadron 1/2
@@ -260,6 +261,10 @@ TEXT_REPUBLIC_TIE_SQUADRON,T.I.E. Starfighter Squadron
 TEXT_REPUBLIC_TIE_SQUADRON_HALF,T.I.E. Starfighter Squadron 1/2
 TEXT_REPUBLIC_TIE_SQUADRON2,T.I.E. Starfighter Squadron x2
 TEXT_REPUBLICSD_RENDILI_DESCRIPTION,Walex Blissex, the former star designer at Rendili StarDrive, is still in touch with his former co-workers, and through them we have learned that he has had plans for an impressive new capital ship for a while now, a design that the rebels are not yet willing or able to put into production. But we could. It will take a lot of persuasion, but using his former Rendili colleagues as intermediaries, we might be able to convince him to license the design to us for 'local defense' despite his rebel sympathies.
+TEXT_RESEARCH_MAELSTROM_SWAP1_DESCRIPTION,Upgrade ships previously used for patrol and planetary defense into more modernized, heavy hitting, military warships. (Locks Patrol Acclamator and ISD-I in return for their assault versions)
+TEXT_RESEARCH_MAELSTROM_SWAP1_NAME,Militarize Patrol Vessels
+TEXT_RESEARCH_MAELSTROM_SWAP2_DESCRIPTION,Return our shipyards to producing capital ships more suited for patrol and planetary defense duties. (Locks Acc-I Assault and ISD-I Assault in return for their patrol variants.)
+TEXT_RESEARCH_MAELSTROM_SWAP2_NAME,Restore Patrol Vessels
 TEXT_RESEARCH_SELLASAS_SWAP1_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught Cruisers, Carrack Cruisers, Victory Star Destroyers and Imperial Star Destroyers to more support-oriented configurations.
 TEXT_RESEARCH_SELLASAS_SWAP1_NAME,Switch to Support Loadouts
 TEXT_RESEARCH_SELLASAS_SWAP2_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught Cruisers, Carrack Cruisers, Victory Star Destroyers and Imperial Star Destroyers to more firepower-centric configurations. 
@@ -669,6 +674,9 @@ TEXT_TOOLTIP_ATOT_HEALTH,Health: 400 (Heavy Vehicle)
 TEXT_TOOLTIP_ATOT_MOVE,Speed: 0.75 | Turn: 2.5
 TEXT_TOOLTIP_ATOT_WEAP1,2x AV Blaster Cannons: 1 / 2.0s / 320m
 TEXT_TOOLTIP_ATOT_WEAP2,2x Light AI Blaster Cannons: 5 / 2.5s / 320m
+TEXT_TOOLTIP_ATPT_SNIPER,Also known as the AT-PT Sniper, the AT-PT/A is an obscure assault modification of the common AT-PT Walker dating back to the Clone Wars. It features a more powerful main blaster intended to better defeat entrenched and armored soldiers and droids, but which also proved surprisingly effective against light vehicles. While mostly unneeded for garrison duties, the "Sniper" saw increased use after the Battle of Endor in Warlord and Pirate arsenals.
+TEXT_TOOLTIP_ATPT_SNIPER_COMPANY,Company: 6x AT-PT/A Walker
+TEXT_TOOLTIP_ATPT_SNIPER_WEAP1,1x Very Light AV Blaster Cannon: 4 / 1.0s / 320m
 TEXT_TOOLTIP_ATTE_COMMAND,
 TEXT_TOOLTIP_ATTE_COMMAND_WEAP,
 TEXT_TOOLTIP_ATXT,Light walker produced early in the Clone Wars as an AT-RT counterpart. Unlike most walkers has shielding for extra protection, but is also slowed down by the assorted systems and poor leg design compared to other light walkers. Quickly phased out in favour of other Republic light vehicles. Best used to engage enemy light vehicles.
@@ -1647,6 +1655,7 @@ TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
 TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
+TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
 TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
@@ -1913,8 +1922,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
-TEXT_ATPT_SNIPER_SQUAD,AT-PT/A Walker Company
-TEXT_TOOLTIP_ATPT_SNIPER_COMPANY,Company: 6x AT-PT/A Walker
-TEXT_TOOLTIP_ATPT_SNIPER,Also known as the AT-PT Sniper, the AT-PT/A is an obscure assault modification of the common AT-PT Walker dating back to the Clone Wars. It features a more powerful main blaster intended to better defeat entrenched and armored soldiers and droids, but which also proved surprisingly effective against light vehicles. While mostly unneeded for garrison duties, the "Sniper" saw increased use after the Battle of Endor in Warlord and Pirate arsenals.
-TEXT_TOOLTIP_ATPT_SNIPER_WEAP1,1x Very Light AV Blaster Cannon: 4 / 1.0s / 320m
