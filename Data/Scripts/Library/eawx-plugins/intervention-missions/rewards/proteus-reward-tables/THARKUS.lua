@@ -17,7 +17,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 5},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -43,7 +43,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -69,7 +69,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -95,7 +95,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -121,7 +121,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -147,7 +147,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -173,7 +173,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -199,7 +199,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -225,7 +225,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -251,7 +251,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 2},
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
@@ -277,7 +277,7 @@ return {
 			{"Aratech_Battle_Platform_Company", 1},	
 		},
 		{
-			{"Imperial_A6_Juggernaut_Company", 2},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
