@@ -1222,4 +1222,49 @@
 		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>	
+
+		<!--Maelstrom Command-->
+
+		<DummyStructure Name="Maelstrom_Loadout_Swap1">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_MAELSTROM_SWAP1_NAME</Text_ID>
+		<Encyclopedia_Text>TEXT_RESEARCH_MAELSTROM_SWAP1_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_MAELSTROM_SWAP.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>1</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Lua_Script>MaelstromRosterSwap</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	</DummyStructure>
+
+	<DummyStructure Name="Maelstrom_Loadout_Swap2">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_MAELSTROM_SWAP2_NAME</Text_ID>
+		<Encyclopedia_Text>TEXT_RESEARCH_MAELSTROM_SWAP2_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ACCLAMATOR_PATROL.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>1</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Lua_Script>MaelstromRosterSwap</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	</DummyStructure>
+
 </Proteus_Research_Dummies>
