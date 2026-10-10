@@ -5021,29 +5021,29 @@
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 	</GroundCompany>
 
-    <GroundVehicle Name="AT_TE_Walker_Command">
+    <GroundVehicle Name="AT_TE_Walker_Canonneer"> <!-- Artillery mode needs testing! -->
         <Variant_Of_Existing_Type>AT_TE_Walker</Variant_Of_Existing_Type>
-        <Text_ID>TEXT_UNIT_AT_TE_WALKER_COMMAND</Text_ID>
+        <Text_ID>TEXT_UNIT_AT_TE_WALKER_CANONNEER</Text_ID>
         <Encyclopedia_Text>
-            TEXT_TOOLTIP_ATTE_COMMAND
+            TEXT_TOOLTIP_ATTE_CANONNEER
     		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
     		TEXT_TOOLTIP_ATTE_HEALTH
     		TEXT_TOOLTIP_ATTE_MOVE
-    		TEXT_TOOLTIP_ATTE_WEAP1
+    		TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1
     		TEXT_TOOLTIP_ATTE_WEAP2
             TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-            TEXT_TOOLTIP_ATTE_WEAP_COMMAND
+            TEXT_TOOLTIP_ATTE_CANONNEER_WEAP3
     		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
             TEXT_TOOLTIP_ATTE_INFANTRY_HEAL
     		TEXT_TOOLTIP_BONUS_AA_ACCURACY
     		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
     		TEXT_TOOLTIP_CAPABILITY_CRUSH
         </Encyclopedia_Text>
-        <Icon_Name>I_BUTTON_ATTE_COMMAND.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_ATTE_CANONNEER.TGA</Icon_Name>
 
         <HardPoints>
-            HP_ATTE_Main_Command,
-            HP_ATTE_Main_Command_Alt,
+            HP_ATTE_Main_Canonneer,
+            HP_ATTE_Main_Canonneer_Alt,
 			HP_ATTE_TurretFrontLeft,
 			HP_ATTE_TurretFrontRight,
 			HP_ATTE_TurretFrontBottomLeft,
@@ -5063,18 +5063,9 @@
 				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
 				<Recharge_Seconds> 9.0 </Recharge_Seconds>
 			</Unit_Ability>
-
-            <Unit_Ability>
-				<Type>FOW_REVEAL_PING</Type>
-				<Recharge_Seconds> 30.0 </Recharge_Seconds>
-				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
-				<Effective_Radius> 0.0 </Effective_Radius>
-				<!-- 0.0 means no distance factor, unlimited to entire map -->
-				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name>
-				</GUI_Activated_Ability_Name>
-			</Unit_Ability>
         </Unit_Abilities_Data>
+
+        <Abilities/>
     </GroundVehicle>
 		
 	<GroundVehicle Name="GAT">
