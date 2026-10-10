@@ -287,6 +287,135 @@
 
 	</GroundCompany>
 
+    <GroundVehicle Name="1L_Tank_AV">
+		<Variant_Of_Existing_Type>1L_Tank</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_1L_TANK_AV</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_1L_TANK_AV
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_1L_TANK_HEALTH 
+		TEXT_TOOLTIP_1L_TANK_MOVE 
+		TEXT_TOOLTIP_1L_TANK_AV_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_10
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_1L_TANK_ASSAULT.TGA</Icon_Name>
+
+		<AI_Combat_Power>45</AI_Combat_Power>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<Property_Flags>DoKite</Property_Flags>
+
+		<HardPoints>
+                HP_1L_AV_Turret
+		</HardPoints>
+
+		<Targeting_Max_Attack_Distance>480.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>360.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>360.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Vehicle_Thief_Inside_Clone>1L_Tank_AV_Captured</Vehicle_Thief_Inside_Clone>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_VEHICLE_OVERCLOCK</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_VEHICLE_OVERCLOCK_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_FIRE_ENERGY_WEAPON.tga</Alternate_Icon_Name>
+				<Expiration_Seconds> 6.0 </Expiration_Seconds>
+				<Recharge_Seconds> 90.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.66f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.1</Damage_Percent_When_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Hovertank</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<!-- 10% Chance for Imperial series tanks -->
+			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
+			<Redirect_Blaster_Ability Name="1L_Tank_AV_Deflect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.10</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero | Vehicle | VehicleHero | AirGunship | AirSpeeder | Structure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+		</Abilities>
+	</GroundVehicle>
+
+	<GroundVehicle Name="1L_Tank_AV_Captured">
+		<Variant_Of_Existing_Type>1L_Tank_AV</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_VEHICLE_OVERCLOCK</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_VEHICLE_OVERCLOCK_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_FIRE_ENERGY_WEAPON.tga</Alternate_Icon_Name>
+				<Expiration_Seconds> 6.0 </Expiration_Seconds>
+				<Recharge_Seconds> 90.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.66f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.1</Damage_Percent_When_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Hovertank</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+	
+	<GroundCompany Name="1L_Tank_AV_Company">
+		<Variant_Of_Existing_Type>1L_Tank_Company</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_1L_TANK_AV_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_1L_TANK_AV 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_1L_TANK_AV_COMPANY 
+		TEXT_TOOLTIP_1L_TANK_HEALTH 
+		TEXT_TOOLTIP_1L_TANK_MOVE 
+		TEXT_TOOLTIP_1L_TANK_AV_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_10
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_1L_TANK_ASSAULT.TGA</Icon_Name>
+
+		<Damage>24</Damage>
+
+		<Build_Cost_Credits>550</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		
+		<Company_Transport_Unit>Imperial_Landing_Craft_Tanks</Company_Transport_Unit> <!-- Replace with Box Sentinel when Extant -->
+		<Company_Units>1L_Tank_AV, 1L_Tank_AV, 1L_Tank_AV, 1L_Tank_AV</Company_Units>
+	
+	</GroundCompany>
+
 	<GroundVehicle Name="AT_XT_Walker">
 		<Text_ID>TEXT_UNIT_AT_XT_WALKER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
