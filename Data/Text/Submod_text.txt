@@ -1922,3 +1922,8 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_TOOLTIP_1L_TANK_AV,The original version of the light 1-Series of Imperial Hovertanks, sporting the same medium blaster cannon as the larger 1-M pattern tank. Less well-known than the anti-infantry field adaptation pioneered by Zel Johan's Imperial Hammers, it was less suited to open combat than heavier platforms and also an ill fit for garrison and patrol duties where its heavier gun was overkill. As a result, the stock variant was mostly sidelined in favor of its adaptations or alternative designs. Still very capable of engaging vehicles effectively, but do not stand up to return fire as well.
+TEXT_UNIT_1L_TANK_AV_COMPANY,1-L Assault Tank Company
+TEXT_UNIT_1L_TANK_AV,Imperial-class 1-L Assault Tank
+TEXT_TOOLTIP_1L_TANK_AV_COMPANY,Company: 4x Imperial-class 1-L Assault Tank
+TEXT_TOOLTIP_1L_TANK_AV_WEAP1,1x AV Blaster Cannon: 1 / 1.0s / 400m
