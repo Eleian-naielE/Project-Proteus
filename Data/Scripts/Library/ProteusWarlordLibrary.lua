@@ -1546,7 +1546,8 @@ return {
 			StartYear = 7,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
-			IntroHolo = "Veers_Loop"
+			IntroHolo = "Veers_Loop",
+			CustomRewardTable = true,
 
 		},
 		["X1"] = {
