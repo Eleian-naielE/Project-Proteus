@@ -2656,7 +2656,7 @@
 		</Abilities>
 	</UniqueUnit>
 
-		<!-- COMPNOR -->
+	<!-- COMPNOR -->
 
 	<UniqueUnit Name="Il_Raz_EmperorsDisciple">
 		<Variant_Of_Existing_Type>Imperial_I_Star_Destroyer</Variant_Of_Existing_Type>
@@ -7588,7 +7588,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ENGINEER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_SETI_ASHGAD_ADMIN.tga</Icon_Name>
 		
 		<Ranking_In_Category>7</Ranking_In_Category>
@@ -8250,9 +8250,9 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
 
-		<!-- COMPNOR -->
+	<!-- COMPNOR -->
 
-		<HeroUnit Name="Crueya_Vandron">
+	<HeroUnit Name="Crueya_Vandron">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_CRUEYA_VANDRON</Text_ID>
 		<Encyclopedia_Text>
@@ -8312,7 +8312,7 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
 
-		<!-- TATOOINE -->
+	<!-- TATOOINE -->
 
 	<HeroUnit Name="Alexander_Julstaan">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
