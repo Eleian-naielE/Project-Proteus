@@ -1255,7 +1255,7 @@ return {
 		},
 		["COMPNOR"] = {
 			FriendlyName = "COMPNOR",
-			Planets = {"BRENTAAL"},
+			Planets = {"BRENTAAL", "ALSAKAN", "IXTLAR"},
 			LeaderTable = {["CRUEYA_VANDRON_TEAM"] = {"CRUEYA_VANDRON"}},
 			LeaderEndingNames = {"Emperor Vandron"},
 			HeroList = {{"Crueya_Vandron_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
@@ -1268,17 +1268,46 @@ return {
 				
 			},
 			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
 			StartYear = 4,
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_COMPNOR",
 			IntroHolo = "_Loop",
 		},
+		["DROMMEL"] = {
+			FriendlyName = "Oplovis Sector",
+			Planets = {"KETARIS", "OPLOVIS", "SOULLEX"},
+			LeaderTable = {"DROMMEL_WOLFS_CLAW"},
+			LeaderEndingNames = {"Emperor Drommel"},
+			HeroList = {"Reder_Krieger", "Niclara_Pulsars_Revenge", "Drommel_Wolfs_Claw"},
+			UnlockList = {
+				-- Space 
+				"Delta_JV7_Group", "Customs_Corvette", "Ipv1_Gunboat_Proteus", "CR92A", "Tartan_Patrol_Cruiser", "Star_Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
+				"Immobilizer_418", "Vindicator_Cruiser", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
+				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
+				"Torpedo_Sphere", "Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Fleet_Commando_Company", "Navy_Commando_Company", "Imperial_Navy_Trooper_Company", "Imperial_Army_Guard_Company",
+				"PX7_Company", "AT_ST_Company", "PX10_Company",
+				"Swift_Assault_5_Company", "1HB_Tank_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Flak_Walker_Company", "Imperial_Light_Mobile_Artillery_Company",
+				"PX4_Company", "A9_Floating_Fortress_Company"
+
+
+				-- Research
+				
+			},
+			FactionOverride = "Empire",
+			StartYear = 4,
+			LastYear = 16,
+			IntroText = "TEXT_CONQUEST_PROTEUS_DROMMEL",
+			IntroHolo = "Drommel_Loop",
+		},
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
-			LeaderTable = {["HETHRIR_TEAM"] = {"HETHRIR"}},
+			LeaderTable = {"FYYAR_DOOMGIVER_EMPEROR", ["HETHRIR_TEAM"] = {"HETHRIR"}},
 			LeaderEndingNames = {"Omnipotent Master Hethrir"},
-			HeroList = {"Hethrir_Team", "Fyyar_Doomgiver", "Desann_Team", "Tavion_Axmis_Team", "Alora_Team", "Nobles_Team"}, 
+			HeroList = {"Hethrir_Team", "Fyyar_Doomgiver", "Desann_Team", "Antinnis_Tremayne_Team","Tavion_Axmis_Team", "Nobles_Team"}, 
 			UnlockList = {
 				-- Space 
 				"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
@@ -1290,6 +1319,7 @@ return {
 				"AT_ST_A_Company", "Arrow_23_Company", "Scorpenek_Company", "Imperial_APC_Company",
 				"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
 				"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
+				-- Dummies
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
@@ -1393,6 +1423,7 @@ return {
 			StartYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_MINOS",
 			IntroHolo = "_Loop",
+			CustomRewardTable = true,
 		},
 		["NIVERS"] = {
 			FriendlyName = "Nivers' Empire",
@@ -1407,12 +1438,12 @@ return {
 				"Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Mandator_II_Dreadnought",
 				-- Ground
-				"Army_Special_Missions_Company", "EVO_Trooper_Company",  "Republic_BARC_Company",
+				"Army_Special_Missions_Company", "EVO_Trooper_Company", "Republic_BARC_Company", --Replace EVOs with Stromtrooper Commandos when proteus version is done
 				"Repulsor_Scout_Company", "RTT_Company", "1L_Tank_AV_Company", "Chariot_LAV_Company", 
 				"AT_AA_Flak_Walker_Company", "SPMAG_Walker_Company", "HAET_Company", 
 				"Imperial_AT_TE_Walker_Company", "Imperial_AT_AT_Walker_Company", 
 				-- Research
-				"Dummy_Research_Nivers_Aggressor", 
+				"Dummy_Research_Nivers_Missile_Fighters", "Dummy_Research_Nivers_Aggressor", 
 			},
 			FactionOverride = "Zsinj_Empire",
 			LastYear = 4,
@@ -1580,7 +1611,7 @@ return {
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",
 			Planets = {"GHORMAN"},
-			LeaderTable= {"THORN_TEAM"},
+			LeaderTable = {["THORN_TEAM"] = {"THORN"}},
 			LeaderEndingNames = {"Emperor Thorn"},
 			HeroList = {"Thorn_Team"},
 			UnlockList = {
