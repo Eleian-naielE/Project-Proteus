@@ -5169,7 +5169,7 @@
         </Encyclopedia_Text>
         <Icon_Name>I_BUTTON_ATTE_CANONNEER.TGA</Icon_Name>
 
-        <No_Colorization_Color>215, 48, 45, 255</No_Colorization_Color>
+        <No_Colorization_Color>128, 164, 196, 255</No_Colorization_Color>
         <HardPoints>
             HP_ATTE_Main_Canonneer,
             HP_ATTE_Main_Canonneer_Alt,
@@ -5266,6 +5266,34 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 
 	</GroundCompany>
+
+    <GroundVehicle Name="AT_TE_Walker_Support">
+        <Variant_Of_Existing_Type>AT_TE_Walker</Variant_Of_Existing_Type>
+        <Texr_ID>TEXT_UNIT_AT_TE_WALKER_SUPPORT</Texr_ID>
+        <Encyclopedia_Text>
+            TEXT_TOOLTIP_ATTE_SUPPORT
+            TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+            TEXT_TOOLTIP_ATTE_HEALTH
+    		TEXT_TOOLTIP_ATTE_MOVE
+            TEXT_TOOLTIP_ATTE_WEAP2
+            TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		    TEXT_TOOLTIP_ATTE_INFANTRY_HEAL
+		    TEXT_TOOLTIP_ATTE_VEHICLE_REPAIR
+		    TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		    TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		    TEXT_TOOLTIP_CAPABILITY_CRUSH
+        </Encyclopedia_Text>
+        <Icon_Name>I_BUTTON_ATTE_SUPPORT.tga</Icon_Name>
+
+        <HardPoints>
+			HP_ATTE_TurretFrontLeft,
+			HP_ATTE_TurretFrontRight,
+			HP_ATTE_TurretFrontBottomLeft,
+			HP_ATTE_TurretFrontBottomRight,
+			HP_ATTE_TurretBackLeft,
+			HP_ATTE_TurretBackRight,
+        </HardPoints>
+    </GroundVehicle>
     
 	<GroundVehicle Name="GAT">
 		<Text_ID>TEXT_UNIT_GAT</Text_ID>

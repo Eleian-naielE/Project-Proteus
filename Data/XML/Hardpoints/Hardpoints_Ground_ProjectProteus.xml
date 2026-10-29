@@ -2477,7 +2477,7 @@
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 	</HardPoint>
 
-	<!-- AT-PT Sniper -->
+<!-- AT-PT Sniper -->
 	<HardPoint Name="HP_ATPT_Sniper_AV">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -2508,7 +2508,7 @@
 		<Full_Salvo_Weapon_Delay_Multiplier>1.5</Full_Salvo_Weapon_Delay_Multiplier>
 	</HardPoint>
 
-	<!-- 1-L Tank AV Variant -->
+<!-- 1-L Tank AV Variant -->
 	<HardPoint Name="HP_1L_AV_Turret">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>

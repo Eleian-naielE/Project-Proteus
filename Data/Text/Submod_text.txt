@@ -2021,3 +2021,5 @@ TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
 TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
 TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
 TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+
+TEXT_UNIT_AT_TE_WALKER_SUPPORT,
