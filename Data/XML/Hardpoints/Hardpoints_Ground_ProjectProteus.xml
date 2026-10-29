@@ -2477,6 +2477,17 @@
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 	</HardPoint>
 
+<!-- AT-TE Support -->
+    
+	<HardPoint Name="HP_ATTE_Main_Dummy">
+		<Type> HARD_POINT_DUMMY_ART </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>B_Turret</Collision_Mesh>
+		<Attachment_Bone>B_Turret</Attachment_Bone>
+    </HardPoint>
+
 <!-- AT-PT Sniper -->
 	<HardPoint Name="HP_ATPT_Sniper_AV">
 		<Type> HARD_POINT_WEAPON_LASER </Type>

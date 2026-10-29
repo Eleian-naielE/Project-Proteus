@@ -5277,8 +5277,7 @@
     		TEXT_TOOLTIP_ATTE_MOVE
             TEXT_TOOLTIP_ATTE_WEAP2
             TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		    TEXT_TOOLTIP_ATTE_INFANTRY_HEAL
-		    TEXT_TOOLTIP_ATTE_VEHICLE_REPAIR
+		    TEXT_TOOLTIP_ATTE_SUPPORT_HEAL_REPAIR
 		    TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		    TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
 		    TEXT_TOOLTIP_CAPABILITY_CRUSH
@@ -5286,6 +5285,7 @@
         <Icon_Name>I_BUTTON_ATTE_SUPPORT.tga</Icon_Name>
 
         <HardPoints>
+            HP_ATTE_Main_Dummy,
 			HP_ATTE_TurretFrontLeft,
 			HP_ATTE_TurretFrontRight,
 			HP_ATTE_TurretFrontBottomLeft,
@@ -5293,7 +5293,107 @@
 			HP_ATTE_TurretBackLeft,
 			HP_ATTE_TurretBackRight,
         </HardPoints>
+
+        <Num_Garrison_Slots>8</Num_Garrison_Slots>
+
+        <AI_Combat_Power>1</AI_Combat_Power>
+        
+ 		<Abilities SubObjectList="Yes">            
+            <Force_Healing_Ability Name="ATTE_Healing_Repair0">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>150.0</Heal_Range>
+				<Heal_Amount> 3.0 </Heal_Amount>
+				<Heal_Percent> 0.0 </Heal_Percent>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Support_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.1, 1.2, 1.1</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+       
     </GroundVehicle>
+    <GroundCompany Name="Imperial_AT_TE_Walker_Support_Company">
+        <Variant_Of_Existing_Type>Imperial_AT_TE_Walker_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_AT_TE_WALKER_SUPPORT</Text_ID>
+		<Encyclopedia_Text>
+    		TEXT_TOOLTIP_ATTE_SUPPORT
+            TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+            TEXT_TOOLTIP_ATTE_SUPPORT_COMPANY
+            TEXT_TOOLTIP_ATTE_HEALTH
+    		TEXT_TOOLTIP_ATTE_MOVE
+            TEXT_TOOLTIP_ATTE_WEAP2
+            TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		    TEXT_TOOLTIP_ATTE_SUPPORT_HEAL_REPAIR
+		    TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		    TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		    TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATTE_SUPPORT.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>750</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>I_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Imperial_ATAT_Barge_Heavy</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_AT_AT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AT</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>AT_TE_Walker_Support</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
+	</GroundCompany>
     
 	<GroundVehicle Name="GAT">
 		<Text_ID>TEXT_UNIT_GAT</Text_ID>
