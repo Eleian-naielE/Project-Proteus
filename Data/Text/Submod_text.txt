@@ -1804,10 +1804,7 @@ TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
-TEXT_UNIT_AT_TE_WALKER_CANONNEER,
-TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
-TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
@@ -2091,5 +2088,17 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
+TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
+TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
+TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
 TEXT_UNIT_NIVERS_MISSILE_FIGHTER_RESEARCH,Research: Missile TIE Fighter & V-Wing.
 TEXT_TOOLTIP_NIVERS_MISSILE_FIGHTER_RESEARCH,Equip TIE Fighters and standard V-Wings with external concussion missile racks for increased firepower.
+TEXT_UNIT_AT_TE_WALKER_SUPPORT,Support AT-TE Walker
+TEXT_TOOLTIP_ATTE_SUPPORT,
+TEXT_TOOLTIP_ATTE_SUPPORT_HEAL_REPAIR,
+TEXT_TOOLTIP_ATTE_SUPPORT_COMPANY,
