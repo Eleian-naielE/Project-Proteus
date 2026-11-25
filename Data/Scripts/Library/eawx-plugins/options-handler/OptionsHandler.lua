@@ -191,8 +191,20 @@ function OptionsHandler:canon_units()
         "Starhawk_MK1"})
     crossplot:publish("NR_CANON_ADMIRALS")
     -- Project_Proteus
+    local ellegible = {
+        ["BATCH"] = 1,
+        ["GAROS"] = 1, 
+        ["GRUNGER"] = 1,
+        ["KAARENTH_DISSENSION"] = 1,
+        ["KASHYYYK"] = 1,
+        ["KASHYYYK"] = 1,
+        ["SCREED"] = 1,
+        ["THORN"] = 1,
+        ["VEERS"] = 1,
+        -- [""] = 1,
+    }
     local Proteus_Group = GlobalValue.Get("PROTEUS_GROUP_NAME")
-    if Proteus_Group == "GAROS" then
+    if ellegible[Proteus_Group] ~= nil then
         UnitUtil.SetLockList("Imperial_Proteus", {"Imperial_AT_ACT_Walker_Company"})
     end
 end
