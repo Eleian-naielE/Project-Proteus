@@ -3,7 +3,7 @@
 	
 <!-- Light Frigate -->
 
-  	<SpaceUnit Name="Consular">
+    <SpaceUnit Name="Consular">
 		<Text_ID>TEXT_UNIT_CONSULAR</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 10</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
@@ -317,7 +317,7 @@
 
 	</SpaceUnit>
 
-  	<SpaceUnit Name="LAC">
+    <SpaceUnit Name="LAC">
 
 		<Text_ID>TEXT_UNIT_LAC</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 14</Encyclopedia_Unit_Class>
